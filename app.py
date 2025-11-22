@@ -79,7 +79,7 @@ def predict(image: Image.Image):
 # Streamlit UI
 # ------------------------------
 st.title("Car Brand Classifier 🚗")
-st.write("Загрузи фото автомобиля и узнай марку!")
+st.write("Узнай марку!")
 
 uploaded_file = st.file_uploader("Выбери изображение", type=["jpg","jpeg","png"])
 
